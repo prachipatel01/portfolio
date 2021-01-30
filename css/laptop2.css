@@ -1,0 +1,80 @@
+.row{
+    display: grid;
+    font-family: sans-serif;
+    margin: 30px;
+}
+.col-lg-6{
+    max-width: 100%;
+}
+
+.macbook{
+    align-items: center;
+    justify-content: center;
+}
+
+.top-part{
+    width:500px;
+    height:300px;
+    border: 2px solid black;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    margin:100px;
+    background-color:black;
+    margin-bottom:0px;
+}
+
+.screen{
+    width:475px;
+    height:270px;
+    top: 0;
+    left: 0;
+    border: 2px solid black;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.bottom-part{
+    width:700px;
+}
+
+.base{
+    width:90%;
+    height:7px;
+    border: 2px solid black;
+    margin-left:30px;
+    margin-right: 20px;
+    background-color: black;
+}
+
+.notch{
+    width:90%;
+    height:15px;
+    border: 2px solid black;
+    margin-left:30px;
+    margin-right: 20px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    background-color: black;
+}
+
+.content-bar{
+    padding: 30px;
+    padding-top:100px;
+}
+
+.content-bar .title{
+    padding-bottom:30px;
+}
+
+.content-bar strong{
+    color:white;
+    font-size: 60px;
+    
+}
+
+.content-bar p{
+    font-size:30px;
+}
+
