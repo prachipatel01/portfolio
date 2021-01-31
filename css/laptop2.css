@@ -32,8 +32,19 @@
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     margin: 10px;
-    background-color: white;
+    /* background-color: white; */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    overflow:scroll;
+    overflow-x:hidden;    
 }
+
+.screen img {
+    width: 100%;
+}
+
 
 .bottom-part{
     width:700px;
@@ -77,4 +88,10 @@
 .content-bar p{
     font-size:30px;
 }
+
+/* .viewport{
+    overflow:auto;
+    overflow-x:hidden;
+
+} */
 
