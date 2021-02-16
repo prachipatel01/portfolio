@@ -5,7 +5,9 @@
 }
 
 main{
-    font-family: 'Comfortaa', cursive; 
+    /* font-family: 'Comfortaa', cursive;  */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Inter', sans-serif;
 }
 
 .footer{
@@ -31,7 +33,8 @@ main{
 }
 
 .landing-1{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url("./images/background.jpg");
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url("./images/background.jpg"); */
+    background-color: #000000;
     top:0;
     left:0;
     background-size:cover;
@@ -110,7 +113,7 @@ a{
 
 .intro-text{
     color:white;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Inter', sans-serif;
     font-size: 2rem;
 }
 
@@ -137,11 +140,20 @@ a{
 .container{
     height:100vh;
     width:100vw;
-    overflow-x: scroll;
-    overflow-y:hidden;
+    scroll-behavior: smooth;
     display:flex;
+    scroll-snap-type: x proximity;
+    overflow-x: auto;
+    overflow-y:hidden;  
     flex-direction: row;
     background-size:cover;
+}
+
+section{
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-padding: 0 0 0 50px;
 }
 
 .content{
@@ -151,6 +163,7 @@ a{
 
 
 .landing{
+    
     top:0;
     left:0;
     background-size:cover;
@@ -161,9 +174,25 @@ a{
     flex-direction:column;
 }
 
+
+.landing-2-2{
+    background:rgb(161, 126, 145);
+    color:rgb(255, 255, 255);
+    padding:0rem 0rem;
+}
+.landing-2-2 .big-text-1{
+    padding: 30px;
+    transform: translate(10%,10%);
+    font-size:3.5rem;
+}
+.landing-2-2 .big-text-paragraph-1{
+    transform: translate(50%,10%);
+}
+
 .landing-2{
-    background:rgb(161, 150, 150);
-    color:white;
+    /* background:rgb(161, 150, 150); */
+    background:black;
+    color:rgb(255, 255, 255);
     padding:0rem 0rem;
     /* top:0;
     left:0;
@@ -175,6 +204,7 @@ a{
     flex-direction:column; */
 }
 
+
 .landing-2 .big-text-1{
     padding: 30px;
     transform: translate(10%,10%);
@@ -185,7 +215,8 @@ a{
 }
 
 .landing-3{
-    background:rgb(0, 0, 0);
+    /* background:rgb(0, 0, 0); */
+    background:rgb(161, 150, 150);
     color:white;
     padding:0rem 0rem;
 }
@@ -200,8 +231,9 @@ a{
 }
 
 .landing-4{
-    background:rgb(108, 147, 173);
-    color:white;
+    /* background:rgb(108, 147, 173); */
+    background:black;
+    color:rgb(255, 255, 255);
     padding:0rem 0rem;
 }
 
@@ -215,7 +247,8 @@ a{
 }
 
 .landing-5{
-    background:rgb(27, 27, 39);
+    /* background:rgb(27, 27, 39); */
+    background:rgb(108, 147, 173);
     color:white;
     padding:0rem 0rem;
 }
@@ -230,8 +263,9 @@ a{
 }
 
 .landing-6{
-    background:rgb(189, 89, 89);
-    color:white;
+    /* background:rgb(189, 89, 89); */
+    background: black;
+    color:rgb(255, 255, 255);
 }
 
 .landing-6 nav{
