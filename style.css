@@ -317,6 +317,16 @@ section{
         transform:translate(50%,10%);
         font-size:3rem;
     }
+    .landing-2-2 .big-text-1{
+        font-size:6rem;
+        margin-left:40px;
+        padding-left:30px;
+        transform:translate(0%,0%);
+    }
+    .landing-2-2 .big-text-paragraph-1{
+        transform:translate(50%,10%);
+        font-size:3rem;
+    }
     .landing-3 .big-text-1{
         font-size:6rem;
         margin-left:40px;
@@ -379,6 +389,16 @@ section{
         transform:translate(50%,80%);
         font-size:1.25rem;
     }
+    .landing-2-2 .big-text-1{
+        font-size:3rem;
+        margin-left:40px;
+        padding-left:30px;
+        transform:translate(0%,70%);
+    }
+    .landing-2-2 .big-text-paragraph-1{
+        transform:translate(50%,80%);
+        font-size:1.25rem;
+    }
     .landing-3 .big-text-1{
         font-size:3rem;
         margin-left:40px;
@@ -393,7 +413,7 @@ section{
         font-size:3rem;
         margin-left:40px;
         padding-left:30px;
-        transform:translate(0%,70%);
+        transform:translate(0%,50%);
     }
     .landing-4 .big-text-paragraph-1{
         transform:translate(50%,80%);
@@ -403,7 +423,7 @@ section{
         font-size:3rem;
         margin-left:40px;
         padding-left:30px;
-        transform:translate(0%,70%);
+        transform:translate(0%,50%);
     }
     .landing-5 .big-text-paragraph-1{
         transform:translate(50%,80%);
@@ -428,6 +448,9 @@ section{
     .landing-2 .big-text-paragraph-1{
         transform:translate(50%,50%);
     }
+    .landing-2-2 .big-text-paragraph-1{
+        transform:translate(50%,40%);
+    }
     .landing-3 .big-text-paragraph-1{
         transform:translate(50%,50%);
     }
@@ -435,7 +458,7 @@ section{
         transform:translate(50%,50%);
     }
     .landing-5 .big-text-paragraph-1{
-        transform:translate(50%,30%);
+        transform:translate(50%,50%);
     }
 }
 
